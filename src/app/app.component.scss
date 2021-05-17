@@ -1,0 +1,21 @@
+.container {
+  padding: 16px 32px;
+}
+
+.storage-selector.mat-select-panel {
+  .mat-option {
+    line-height: 24px;
+    height: fit-content;
+    min-height: 56px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    .mat-icon {
+      margin-right: 8px;
+    }
+
+    .drive-path {
+      color: gray;
+    }
+  }
+}
